@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Data files (DON'T upload to GitHub)
+data/raw/
+data/processed/
+vector_store/
+*.csv
+*.parquet
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
